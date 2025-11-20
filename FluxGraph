@@ -8,7 +8,7 @@ digraph FluxGraph_001 {
     labelloc="t";
     fontsize=36;
     fontname="Helvetica Bold";
-    label="FluxGraph #001 – Lei de Ohm";
+    label="FluxGraph #001";
 
     // ================== SUPPLY ==================
     node [shape=box, style="filled,rounded",
