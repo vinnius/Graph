@@ -1,4 +1,4 @@
-// https://graph.flyte.org/
+// You can vizualize this code at: https://graph.flyte.org/
 
 
 digraph FluxGraph_001 {
@@ -24,6 +24,7 @@ digraph FluxGraph_001 {
     fillcolor="#e8f5e9", fontname="Helvetica Bold",
     fontsize=50, width=3.0, height=1.8, penwidth=3, 
     color="#2e7d32"];
+
     Ohm [label="I = U / R"];
 
     // ================== DEMAND ==================
@@ -31,6 +32,7 @@ digraph FluxGraph_001 {
     fillcolor="#e8f5e9", fontname="Helvetica Bold",
     fontsize=50, width=3.0, height=1.8, penwidth=3, 
     color="#2e7d32"];
+
     I1 [label="I₁ = 30 mA"];
 
     // ================== FLUXO ==================
