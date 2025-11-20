@@ -1,0 +1,40 @@
+// https://graph.flyte.org/
+
+
+digraph FluxGraph_001 {
+    rankdir=TB;
+    nodesep=1.5;
+    ranksep=3.0;
+    labelloc="t";
+    fontsize=36;
+    fontname="Helvetica Bold";
+    label="FluxGraph #001 – Lei de Ohm";
+
+    // ================== OFERTA ==================
+    node [shape=box, style="filled,rounded",
+    fillcolor="#e8f5e9", fontname="Helvetica Bold",
+    fontsize=50, width=3.0, height=1.8, penwidth=3, 
+    color="#2e7d32"];
+
+    U1 [label="U1 = 3 V"];
+    R1 [label="R1 = 100 Ω"];
+
+    // ================== SOLUÇÃO ==================
+    node [shape=box, style="filled,rounded",
+    fillcolor="#e8f5e9", fontname="Helvetica Bold",
+    fontsize=50, width=3.0, height=1.8, penwidth=3, 
+    color="#2e7d32"];
+    Ohm [label="I = U / R"];
+
+    // ================== DEMANDA ==================
+    node [shape=box, style="filled,rounded",
+    fillcolor="#e8f5e9", fontname="Helvetica Bold",
+    fontsize=50, width=3.0, height=1.8, penwidth=3, 
+    color="#2e7d32"];
+    I1 [label="I₁ = 30 mA"];
+
+    // ================== FLUXO ==================
+    U1 -> Ohm [penwidth=8, color="#20A86D", arrowsize=2.5];
+    R1 -> Ohm [penwidth=8, color="#20A86D", arrowsize=2.5];
+    Ohm -> I1 [penwidth=8, color="#20A86D", arrowsize=2.5];
+}
