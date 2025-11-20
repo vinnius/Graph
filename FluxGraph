@@ -25,7 +25,7 @@ digraph FluxGraph_001 {
     fontsize=50, width=3.0, height=1.8, penwidth=3, 
     color="#2e7d32"];
 
-    Ohm [label="I = U / R"];
+    Ohm [label="I1 = U1 / R1"];
 
     // ================== DEMAND ==================
     node [shape=box, style="filled,rounded",
@@ -33,7 +33,7 @@ digraph FluxGraph_001 {
     fontsize=50, width=3.0, height=1.8, penwidth=3, 
     color="#2e7d32"];
 
-    I1 [label="I₁ = 30 mA"];
+    I1 [label="I1 = 30 mA"];
 
     // ================== FLUX ==================
     U1 -> Ohm [penwidth=8, color="#20A86D", arrowsize=2.5];
