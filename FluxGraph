@@ -35,7 +35,7 @@ digraph FluxGraph_001 {
 
     I1 [label="I₁ = 30 mA"];
 
-    // ================== FLUXO ==================
+    // ================== FLUX ==================
     U1 -> Ohm [penwidth=8, color="#20A86D", arrowsize=2.5];
     R1 -> Ohm [penwidth=8, color="#20A86D", arrowsize=2.5];
     Ohm -> I1 [penwidth=8, color="#20A86D", arrowsize=2.5];
