@@ -10,7 +10,7 @@ digraph FluxGraph_001 {
     fontname="Helvetica Bold";
     label="FluxGraph #001 – Lei de Ohm";
 
-    // ================== OFERTA ==================
+    // ================== SUPPLY ==================
     node [shape=box, style="filled,rounded",
     fillcolor="#e8f5e9", fontname="Helvetica Bold",
     fontsize=50, width=3.0, height=1.8, penwidth=3, 
@@ -19,14 +19,14 @@ digraph FluxGraph_001 {
     U1 [label="U1 = 3 V"];
     R1 [label="R1 = 100 Ω"];
 
-    // ================== SOLUÇÃO ==================
+    // ================== SOLUTION ==================
     node [shape=box, style="filled,rounded",
     fillcolor="#e8f5e9", fontname="Helvetica Bold",
     fontsize=50, width=3.0, height=1.8, penwidth=3, 
     color="#2e7d32"];
     Ohm [label="I = U / R"];
 
-    // ================== DEMANDA ==================
+    // ================== DEMAND ==================
     node [shape=box, style="filled,rounded",
     fillcolor="#e8f5e9", fontname="Helvetica Bold",
     fontsize=50, width=3.0, height=1.8, penwidth=3, 
